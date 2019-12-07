@@ -1,7 +1,9 @@
-from day01.day01 import getFuelRequirementsSum, getFuelFuelRequirementsSum, getFuelFuel
-from day02.day02 import handleList, getList, getLine, findNoun100Verb
-from day03.day03 import solveDistance, findDistance, solveBestSteps
-from day04.day04 import isValidPassword, howManyValidPasswords, isValidPassword2, howManyValidPasswords2
+# from day01.day01 import getFuelRequirementsSum, getFuelFuelRequirementsSum, getFuelFuel
+# from day02.day02 import handleList, getList, getLine, findNoun100Verb
+# from day03.day03 import solveDistance, findDistance, solveBestSteps
+# from day04.day04 import isValidPassword, howManyValidPasswords, isValidPassword2, howManyValidPasswords2
+# from day05.day05 import getDiagnosticCode
+from day06.day06 import getTotalOrbits, getDistance
 
 # print('D1-1 Fuel requirements sum: {}'.format(getFuelRequirementsSum()))
 # print (getFuelFuel(100756))
@@ -12,4 +14,7 @@ from day04.day04 import isValidPassword, howManyValidPasswords, isValidPassword2
 # print('D3-1 Closest Manhattan distance: {}'.format(solveDistance()))
 # print('D3-2 Best steps: {}'.format(solveBestSteps()))
 # print('D4-1 Valid passwords: {}'.format(howManyValidPasswords()))
-print('D4-2 Valid passwords: {}'.format(howManyValidPasswords2()))
+# print('D4-2 Valid passwords: {}'.format(howManyValidPasswords2()))
+# print('D5-1 Diagnostic code: {}'.format(getDiagnosticCode()))
+# print('D6-1 Total orbits: {}'.format(getTotalOrbits()))
+# print('D6-2 Orbits distance: {}'.format(getDistance()))
