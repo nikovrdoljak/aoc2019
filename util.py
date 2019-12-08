@@ -1,5 +1,11 @@
 class Util:
 
+
+    @staticmethod
+    def getStringFromFile(file_location):
+        fhand = open(file_location)
+        return fhand.read()
+
     @staticmethod
     def getListFromFile(file_location):
         fhand = open(file_location)
